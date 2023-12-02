@@ -1,0 +1,44 @@
+Carolina Cavalli Machado
+RM: 552925
+
+1 - PROBLEMA A SER TRATADO:
+
+    Ter que esperar muito tempo em hospitais é uma situação que ninguém gosta de passar não é mesmo? Por mais que não seja algo agradável,
+acontece com grande frequência em vários lugares do mundo, por exemplo no SUS, onde o principal problema é o tempo de espera, chegando em 
+até 54% de reclamações segundo o CNN Brasil. Além disso, de acordo com o Setor Saúde, quanto menor o atraso, maior a satisfação das pessoas
+    Mas, você já se perguntou o motivode ter que esperar? Muitos hospitais não possuem um sistema automatizado, sendo assim, o paciente é
+obrigado a aguardar quem está sendo atendido pelos funcionários, ainda é capaz de, quando forem atendê-lo, ele ter que ser encaminhado para
+outros exames a fim de entender por completo a questão daquele paciente em específico.
+
+2 - SOLUÇÃO:
+
+    Com isso em mente, podemos pensar em uma forma de automatizar os processos para diminuir o tempo de espera nos hospitais, por isso, criei
+um sistema de automatização que analisa o paciente a partir do momento em que ele passa pela porta. Dessa maneira, quando ele puder ser
+atendido, o médico(a) ou enfermeiro(a) já saberá do estado clínico dele, reduzindo ao máximo a quantidade de exames e o tempo dentro dos 
+hospitais.
+
+3 - INSTRUÇÕES PARA USO:
+
+    Para o programa funcionar corretamente, é necessário seguir alguns passos:
+    1 - Ao abrir o link do tinkercad, precisará clicar no botão escrito "Iniciar Simulação";
+    2 - Após isso, clique no sensor PIR e mexa o botão que aparecer. Perceba que, quando o sensor captar movimentação, ele ativará o servo 
+motor, o qual representa a porta do hospital se abrindo;
+    3 - Enquanto o paciente passa pela porta, ou seja, enquanto o sensor estiver captando movimento, o LDR será acionado fazendo a demonstra-
+ção do monitoramento dos exames;
+    4 - Se a luminosidade estiver baixa, o led verde será aceso e aparecerá no LCD que está tudo ok com aquela pessoa;
+    5 - Se a luminosidade estiver média, o led amarelo ficará aceso e o buzzer apitará, mostrando no LCD que o paciente está em estado alerta.
+    6 - Se a luminosidade estiver alta, o led vermelho será acionado e o buzzer tocará um som constante, o que significa que o paciente está
+em estado crítico.
+
+**OBS: Para que o sistema funcione, o PIR precisa ficar constantemente captando movimento, então, para mudar a luminosidade, basta clicar no 
+LDR e alterar a intensidade quando o PIR não estiver acionado.**
+
+
+4 - LINK DO TINKERCAD:
+
+https://www.tinkercad.com/things/fQuuKsSKxP2-global-solution
+
+
+Fontes:
+1- https://setorsaude.com.br/antonioquinto/2015/08/25/melhoria-na-espera-em-sala-de-recepcao-um-topico-de-excelencia/
+2- https://www.cnnbrasil.com.br/saude/fila-de-espera-e-a-principal-reclamacao-de-pacientes-do-sus-em-sp-diz-pesquisa/

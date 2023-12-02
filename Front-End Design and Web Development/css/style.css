@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(246, 241, 234);
+    min-width: 1040px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background: fixed rgb(237, 223, 204);
+    border-bottom: 1px solid rgb(255, 99, 99);
+    box-shadow: 0px 0px 5px 5px rgb(220, 219, 219);
+    display: grid;
+    grid-template-areas:
+    "nome-logo"
+    "menu";
+}
+
+.nome-logo {
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 1% 5%;
+}
+
+.nome{
+    margin-top: 5%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.menu{
+    display: grid;
+    grid-template-areas: 
+    "home problema demonstacao contato";
+    text-align: center;
+    margin-top: 5px;
+    grid-area: menu;
+}
+
+.menu a{
+    text-decoration: none;
+    color:rgb(42, 42, 42);
+    border-left: 1px solid rgb(255, 99, 99); 
+    border-top: 1px solid rgb(255, 99, 99);
+    padding: 5px;
+}
+
+.menu a:hover {
+    background-color: rgb(252, 110, 110);
+    border: 1px solid black;
+}
+
+/* Estilizações que servem para várias páginas */
+.conteudo {
+    margin: 3% 20%;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.alinhar {
+    display: grid;
+    grid-template-areas:
+    "texto grafico";
+}
+
+/* Home */
+#pitch {
+    text-align: center;
+    margin-top: 4%;
+}
+
+#textoFoto {
+    margin-right: 20%;
+}
+
+#textoFoto2 {
+    margin-left: 30%;
+    margin-right: 25%;
+}
+
+#grafico {
+    margin-left: 50%;
+    margin-top: -10%;
+}
+
+/* Problema & Solução */
+#dados{
+    margin-top: 33%;
+}
+
+#dados li {
+    list-style: none;
+}
+
+/* Demonstração */
+#figma-pai {
+    display: flex;
+    justify-content: center;
+}
+
+#figma {
+    width: 800px;
+    height: 600px;
+    border: 1px solid rgb(255, 99, 99);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(220, 219, 219);
+}
+
+#pLink a {
+    text-decoration: none;
+    color: black;
+}
+
+#pLink a:hover {
+    color: rgb(255, 99, 99);
+}
+
+/* Contato */
+.formulario {
+    border: 1px solid rgb(255, 99, 99);
+    border-radius: 5px;
+    text-align: center;
+    background-color:rgb(237, 223, 204);
+    max-width: 400px;
+    margin: 10% auto;
+    box-shadow: 0px 0px 30px 10px rgb(220, 219, 219);
+}
+
+.input {
+    margin-top: 30px;
+    max-width: 60%;
+    margin-left: 75px;
+}
+
+input[type="text"] {
+    margin-left: 5px;
+    padding: 8px;
+    border: 1px solid rgb(255, 99, 99);
+    border-radius: 3px;
+}
+
+#enviar {
+    background-color:rgb(252, 110, 110);
+    color: rgb(42, 42, 42);
+    padding: 8px;
+    margin-top: 30px;
+    border: 1px solid rgb(42, 42, 42);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.validar {
+    color: rgb(255, 99, 99);
+    text-align: left;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.popup-pai {
+    background: rgba(0, 0, 0, 0.723);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 5% auto;
+    padding: 50px;
+    background: rgb(246, 241, 234);
+    position: relative;
+    border: 1px solid rgb(255, 99, 99);
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: rgb(237, 223, 204);
+    border-top: 1px solid rgb(255, 99, 99);
+    box-shadow: 0px 0px 5px 5px rgb(220, 219, 219);
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    gap: 35%;
+}
+
+table {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    margin-left: 30px;
+}
+
+td {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
